@@ -1,0 +1,12 @@
+Flask==3.0.3
+google-generativeai==0.8.3
+numpy==2.1.2
+python-dotenv==1.0.1
+requests==2.32.3
+# versão do Python utilizada: Python 3.11.1
+# Deve-se criar e ativar o ambiente virtual antes de executar o programa!
+# Os comando para executar essa tarefa são:
+# Crindo o ambiente virtual -> python -m venv venv
+# Ativando o ambiente virtual -> venv/scripts/activate
+# Após fazer-mos as instruções acima, devemos instalar as bibliotecas utilizadas no projeto.
+#Executamos o comando -> pip install -r requirements.txt

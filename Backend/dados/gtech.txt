@@ -1,0 +1,124 @@
+--- Dados da Gtech ---
+
+Nome do E-commerce: Gtech
+
+Slogan: “Tecnologia e assertividade!”
+
+
+Descrição do E-commerce:
+A Gtech é uma plataforma de comércio eletrônico especializada em produtos e acessórios de tecnologia, com foco em oferecer equipamentos de alta performance para gamers, profissionais de TI e entusiastas da informática.
+Nossa missão é tornar a tecnologia de ponta acessível, com produtos confiáveis, suporte dedicado e uma experiência de compra moderna e segura.
+
+--- Políticas da Gtech ---
+
+1. Política de Devolução
+
+A Gtech oferece 30 dias para devolução de produtos não utilizados e em perfeitas condições.
+O custo do frete de devolução é de responsabilidade do cliente, salvo em casos de defeito de fábrica ou danos durante o transporte.
+Os reembolsos são processados após a inspeção do produto e podem ser realizados via crédito na loja ou reembolso direto, conforme escolha do cliente.
+
+2. Política de Privacidade
+
+A Gtech respeita a privacidade dos clientes e protege seus dados pessoais.
+As informações coletadas são usadas apenas para processar pedidos e melhorar a experiência de compra.
+Nenhum dado é compartilhado com terceiros sem autorização expressa do cliente.
+
+3. Segurança
+
+Toda transação é protegida com tecnologia de criptografia SSL, garantindo a segurança das informações financeiras.
+O banco de dados é monitorado constantemente para evitar acessos não autorizados e proteger os dados dos clientes.
+
+4. Qualidade e Garantia
+
+Todos os produtos da Gtech são originais, com garantia de fábrica e suporte técnico especializado.
+Itens como placas de vídeo, processadores e periféricos gamers possuem garantia de até 2 anos.
+Trabalhamos somente com marcas líderes de mercado, como Intel, AMD, NVIDIA, Logitech, Razer, Corsair, ASUS e Dell.
+
+5. Atendimento ao Cliente
+
+Nosso time de suporte está disponível via chat online e e-mail (suporte@gtech.com.br).
+A Gtech garante respostas rápidas e suporte técnico eficiente antes, durante e após a compra.
+
+6. Entrega e Prazo de Envio
+
+Os prazos de entrega são informados no momento da compra e variam conforme o CEP e o tipo de frete escolhido.
+Trabalhamos com transportadoras confiáveis e fornecemos código de rastreio para acompanhamento do pedido.
+Em caso de atrasos, notificamos o cliente e priorizamos a solução do problema com agilidade.
+
+7. Sustentabilidade e Responsabilidade Social
+
+A Gtech apoia programas de reciclagem de eletrônicos e educação digital.
+Parte das vendas é destinada a projetos que promovem o acesso à tecnologia em escolas públicas e comunidades carentes.
+
+8. Avaliações e Comentários
+Incentivamos os clientes a deixarem avaliações e opiniões sobre os produtos adquiridos, ajudando outros compradores a fazerem escolhas informadas.
+
+9. Descontos e Promoções
+
+Processadores: 10% off com o cupom CPU10, válido até 30/11/2025.
+Periféricos (Teclados, Mouses e Headsets): 15% off com o cupom PERIF15, válido até 15/12/2025.
+Placas de Vídeo: 8% off com o cupom GPU8, válido até 31/12/2025.
+Monitores e Fontes: 10% off com o cupom POWER10, válido até 20/11/2025.
+
+
+--- Produtos Disponíveis ---
+
+1. Processadores
+
+Intel Core i5-13600K – R$ 2.199,00
+AMD Ryzen 7 7800X3D – R$ 2.599,00
+Intel Core i9-14900K – R$ 4.299,00
+AMD Ryzen 5 5600G – R$ 1.199,00
+Cooler Master Hyper 212 Black Edition – R$ 299,00
+
+2. Placas de Vídeo
+
+NVIDIA GeForce RTX 4070 Ti 12GB – R$ 6.499,00
+AMD Radeon RX 7800 XT 16GB – R$ 5.899,00
+NVIDIA GeForce RTX 4060 8GB – R$ 3.499,00
+ASUS Dual RTX 4070 12GB – R$ 6.299,00
+Zotac RTX 3060 Twin Edge 12GB – R$ 2.999,00
+
+3. Periféricos (Teclados, Mouses, Headsets)
+
+Teclado Mecânico Redragon Kumara K552 – R$ 349,00
+Mouse Gamer Logitech G502 HERO – R$ 399,00
+Headset HyperX Cloud II – R$ 699,00
+Mousepad RGB Corsair MM700 – R$ 259,00
+Combo Gamer Razer Cynosa + Viper Mini – R$ 799,00
+
+4. Fontes e Gabinetes
+
+Fonte Corsair CV550 550W 80 Plus Bronze – R$ 369,00
+Fonte EVGA 600W White – R$ 329,00
+Gabinete Cooler Master TD500 Mesh – R$ 699,00
+Gabinete NZXT H510 – R$ 749,00
+Kit Ventoinha RGB 3x120mm – R$ 249,00
+
+5. Monitores
+
+Monitor Gamer AOC 24G2 24” 144Hz – R$ 999,00
+Monitor LG UltraGear 27” 165Hz – R$ 1.499,00
+Samsung Odyssey G5 32” Curvo 165Hz – R$ 2.299,00
+Philips 27” Full HD IPS – R$ 1.099,00
+Dell P2422H 24” – R$ 899,00
+
+6. Armazenamento e Memória
+
+SSD Kingston NV2 1TB NVMe – R$ 429,00
+HD Seagate Barracuda 2TB – R$ 399,00
+SSD WD Blue 500GB SATA – R$ 329,00
+Memória DDR5 Corsair Vengeance 16GB 6000MHz – R$ 749,00
+Memória DDR4 HyperX Fury 8GB 3200MHz – R$ 299,00
+
+7. Acessórios e Tecnologia
+
+Suporte para Notebook Ajustável – R$ 189,00
+Cabo HDMI 2.1 Ultra HD 2m – R$ 79,00
+Hub USB 3.0 4 Portas – R$ 99,00
+Base Cooler para Notebook Redragon – R$ 249,00
+Luminária de Mesa RGB Smart Gtech – R$ 199,00
+
+Resumo da Gtech
+A Gtech se propõe a ser a loja referência em tecnologia e equipamentos de informática, oferecendo produtos confiáveis, preços competitivos e suporte especializado.
+Combinando inovação, atendimento personalizado e segurança, buscamos proporcionar a melhor experiência para quem ama tecnologia — seja para trabalhar, estudar ou jogar.

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GTECH - Loja de Tecnologia</title>
+  <link rel="stylesheet" href="../static/css/estilos.css" />
+</head>
+<body>
+  <!-- TOPO -->
+  <header class="cabecalho">
+    <div class="conteudo-maximo cabecalho__conteudo">
+      <button class="botao-menu" aria-label="Abrir menu">&#9776;</button>
+
+      <a class="logo" href="#" aria-label="Página inicial GTECH">
+        <span class="logo__marca">G</span><span class="logo__texto">TECH</span>
+      </a>
+
+      <form class="busca" role="search">
+        <input class="busca__entrada" type="search" placeholder="Buscar produtos..." aria-label="Buscar" />
+        <button class="busca__botao" type="submit" aria-label="Pesquisar">🔍</button>
+      </form>
+
+      <nav class="atalhos">
+        <a class="atalhos__link" href="#" aria-label="Login">
+          <span class="icone">👤</span><span class="atalhos__texto">Login</span>
+        </a>
+        <a class="atalhos__link" href="#" aria-label="Carrinho">
+          <span class="icone">🛒</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CATEGORIAS -->
+  <nav class="categorias">
+    <div class="conteudo-maximo categorias__lista">
+      <a href="#" class="categoria__link">Processadores</a>
+      <a href="#" class="categoria__link">Placas-mãe</a>
+      <a href="#" class="categoria__link">Memórias</a>
+      <a href="#" class="categoria__link">Placas de vídeo</a>
+      <a href="#" class="categoria__link">Armazenamento</a>
+      <a href="#" class="categoria__link">Fontes</a>
+      <a href="#" class="categoria__link">Monitores</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- BANNER -->
+    <section class="faixa-destaque">
+      <div class="conteudo-maximo faixa-destaque__conteudo">
+        <h2 class="faixa-destaque__titulo">Carrossel</h2>
+        <div class="faixa-destaque__marca-dagua" aria-hidden="true">🛒</div>
+      </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section class="secao-produtos">
+      <div class="conteudo-maximo">
+        <ul class="carrossel" aria-label="Produtos em destaque">
+          <li class="produto">
+            <a href="#" class="produto__cartao">
+              <figure class="produto__imagem">
+                <img src="https://picsum.photos/seed/cpu/240/180" alt="Processador AMD Ryzen 7 (imagem ilustrativa)" />
+              </figure>
+              <figcaption class="produto__descricao">Processador AMD Ryzen 7</figcaption>
+              <strong class="produto__preco">R$ 2.899,99</strong>
+            </a>
+          </li>
+
+          <li class="produto">
+            <a href="#" class="produto__cartao">
+              <figure class="produto__imagem">
+                <img src="https://picsum.photos/seed/placamae/240/180" alt="Placa-mãe Asus TUF (imagem ilustrativa)" />
+              </figure>
+              <figcaption class="produto__descricao">Placa-mãe Asus TUF</figcaption>
+              <strong class="produto__preco">R$ 569,99</strong>
+            </a>
+          </li>
+
+          <li class="produto">
+            <a href="#" class="produto__cartao">
+              <figure class="produto__imagem">
+                <img src="https://picsum.photos/seed/gpu/240/180" alt="Placa de vídeo (imagem ilustrativa)" />
+              </figure>
+              <figcaption class="produto__descricao">Placa de vídeo</figcaption>
+              <strong class="produto__preco">R$ 1.559,99</strong>
+            </a>
+          </li>
+
+          <li class="produto">
+            <a href="#" class="produto__cartao">
+              <figure class="produto__imagem">
+                <img src="https://picsum.photos/seed/fonte/240/180" alt="Fonte MSI 650W (imagem ilustrativa)" />
+              </figure>
+              <figcaption class="produto__descricao">Fonte MSI 650W</figcaption>
+              <strong class="produto__preco">R$ 309,99</strong>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+    <!-- =========================
+       BOTÃO FLUTUANTE + JANELA DO CHAT
+       ========================= -->
+  <!-- BOTÃO FLUTUANTE -->
+  <button
+    id="botaoChat"
+    class="botao-chat-flutuante"
+    aria-label="Abrir chat de atendimento"
+  >
+    <!-- Troque o src abaixo quando tiver seu arquivo:
+         ex.: ./img/meu-icone-chat.svg -->
+    <img src="./img/icone-chat.png" alt="" />
+  </button>
+
+  <!-- JANELA DO CHAT -->
+  <section
+    id="janelaChat"
+    class="janela-chat"
+    aria-live="polite"
+    aria-hidden="true"
+  >
+    <header class="janela-chat__topo">
+      <div class="janela-chat__titulo">
+        <strong>Assistente GTECH</strong>
+        <small>online</small>
+      </div>
+      <button id="fecharChat" class="janela-chat__fechar" aria-label="Fechar chat">×</button>
+    </header>
+
+    <div id="listaMensagens" class="janela-chat__corpo">
+      <div class="mensagem mensagem--bot">
+        <span class="mensagem__autor">GTECH</span>
+        <p class="mensagem__texto">Olá! 👋 Posso ajudar você a escolher peças para o seu PC?</p>
+        <time class="mensagem__tempo">agora</time>
+      </div>
+    </div>
+
+    <form id="formChat" class="janela-chat__rodape" autocomplete="off">
+      <input
+        id="entradaMensagem"
+        class="entrada-chat"
+        type="text"
+        name="mensagem"
+        placeholder="Digite sua mensagem..."
+        aria-label="Mensagem para o assistente"
+        required
+      />
+      <button class="botao-enviar" type="submit" aria-label="Enviar mensagem">Enviar</button>
+    </form>
+    </section>
+
+  <footer class="rodape">
+    <div class="conteudo-maximo">
+      <p class="rodape__texto">© GTECH — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Script simples para abrir/fechar e simular envio -->
+  <script>
+    (function(){
+      const botaoChat = document.getElementById('botaoChat');
+      const janelaChat = document.getElementById('janelaChat');
+      const fecharChat = document.getElementById('fecharChat');
+      const formChat = document.getElementById('formChat');
+      const entradaMensagem = document.getElementById('entradaMensagem');
+      const listaMensagens = document.getElementById('listaMensagens');
+
+      function abrirChat(){
+        janelaChat.classList.add('aberta');
+        janelaChat.setAttribute('aria-hidden','false');
+        setTimeout(()=>entradaMensagem.focus(), 50);
+      }
+      function fecharJanela(){
+        janelaChat.classList.remove('aberta');
+        janelaChat.setAttribute('aria-hidden','true');
+      }
+
+      botaoChat.addEventListener('click', abrirChat);
+      fecharChat.addEventListener('click', fecharJanela);
+
+      // Fecha com ESC
+      window.addEventListener('keydown', (e)=>{
+        if(e.key === 'Escape' && janelaChat.classList.contains('aberta')) fecharJanela();
+      });
+
+      // Simula envio de mensagem (somente front-end)
+      formChat.addEventListener('submit', (e)=>{
+        e.preventDefault();
+        const texto = entradaMensagem.value.trim();
+        if(!texto) return;
+
+        // Mensagem do usuário
+        listaMensagens.insertAdjacentHTML('beforeend',
+          `<div class="mensagem mensagem--usuario">
+             <span class="mensagem__autor">Você</span>
+             <p class="mensagem__texto"></p>
+             <time class="mensagem__tempo">${new Date().toLocaleTimeString().slice(0,5)}</time>
+           </div>`
+        );
+        // coloca o texto de forma segura
+        listaMensagens.querySelectorAll('.mensagem--usuario .mensagem__texto:last-child');
+        listaMensagens.lastElementChild.querySelector('.mensagem__texto').textContent = texto;
+
+        // Resposta mock do bot
+        setTimeout(()=>{
+          listaMensagens.insertAdjacentHTML('beforeend',
+            `<div class="mensagem mensagem--bot">
+               <span class="mensagem__autor">GTECH</span>
+               <p class="mensagem__texto">Beleza! Já anotei: "${texto}". Quer comparar processadores Ryzen e Intel?</p>
+               <time class="mensagem__tempo">${new Date().toLocaleTimeString().slice(0,5)}</time>
+             </div>`
+          );
+          listaMensagens.scrollTop = listaMensagens.scrollHeight;
+        }, 400);
+
+        entradaMensagem.value = '';
+        listaMensagens.scrollTop = listaMensagens.scrollHeight;
+      });
+    })();
+  </script>
+</body>
+</html>
