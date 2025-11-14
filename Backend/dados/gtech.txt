@@ -9,116 +9,235 @@ Descrição do E-commerce:
 A Gtech é uma plataforma de comércio eletrônico especializada em produtos e acessórios de tecnologia, com foco em oferecer equipamentos de alta performance para gamers, profissionais de TI e entusiastas da informática.
 Nossa missão é tornar a tecnologia de ponta acessível, com produtos confiáveis, suporte dedicado e uma experiência de compra moderna e segura.
 
---- Políticas da Gtech ---
+Principal Objetivo:
+Garantir que as peças que o usuário comprar sejam compativeis entre sí e que o orçamento dele tenha todas as peças necessárias para um computador funcionar, caso ele tenha dúvidas sobre alguma peça, sanar as dúvidas do cliente.
+Sempre lebrar que o cliente por der LEIGO no ASSUNTO.
 
-1. Política de Devolução
 
-A Gtech oferece 30 dias para devolução de produtos não utilizados e em perfeitas condições.
-O custo do frete de devolução é de responsabilidade do cliente, salvo em casos de defeito de fábrica ou danos durante o transporte.
-Os reembolsos são processados após a inspeção do produto e podem ser realizados via crédito na loja ou reembolso direto, conforme escolha do cliente.
+Regras:
+1 - verificar sempre se o processador tem video integrado e se não tiver passar uma placa de video.
+2 - Verificar sempre compatibilidade entre todos os itens.
+3 - Processadores AMD — Regras de Vídeo Integrado
+    Tem vídeo integrado:
+        Termina em G
+        Termina em GE
+    Não tem vídeo integrado:
+        Termina em X
+        Termina em XT
+        Termina em X3D
+        Sem letra nenhuma no final
+4 - Processadores Intel — Regras de Vídeo Integrado
+    Tem vídeo integrado:
+        Não possuem letra "F" no final
+    Não tem vídeo integrado:
+        Termina em F
+        Termina em KF
 
-2. Política de Privacidade
+4 - Verificar soquete/LGA do processador se é compativel com a placa Mãe
 
-A Gtech respeita a privacidade dos clientes e protege seus dados pessoais.
-As informações coletadas são usadas apenas para processar pedidos e melhorar a experiência de compra.
-Nenhum dado é compartilhado com terceiros sem autorização expressa do cliente.
-
-3. Segurança
-
-Toda transação é protegida com tecnologia de criptografia SSL, garantindo a segurança das informações financeiras.
-O banco de dados é monitorado constantemente para evitar acessos não autorizados e proteger os dados dos clientes.
-
-4. Qualidade e Garantia
-
-Todos os produtos da Gtech são originais, com garantia de fábrica e suporte técnico especializado.
-Itens como placas de vídeo, processadores e periféricos gamers possuem garantia de até 2 anos.
-Trabalhamos somente com marcas líderes de mercado, como Intel, AMD, NVIDIA, Logitech, Razer, Corsair, ASUS e Dell.
-
-5. Atendimento ao Cliente
-
-Nosso time de suporte está disponível via chat online e e-mail (suporte@gtech.com.br).
-A Gtech garante respostas rápidas e suporte técnico eficiente antes, durante e após a compra.
-
-6. Entrega e Prazo de Envio
-
-Os prazos de entrega são informados no momento da compra e variam conforme o CEP e o tipo de frete escolhido.
-Trabalhamos com transportadoras confiáveis e fornecemos código de rastreio para acompanhamento do pedido.
-Em caso de atrasos, notificamos o cliente e priorizamos a solução do problema com agilidade.
-
-7. Sustentabilidade e Responsabilidade Social
-
-A Gtech apoia programas de reciclagem de eletrônicos e educação digital.
-Parte das vendas é destinada a projetos que promovem o acesso à tecnologia em escolas públicas e comunidades carentes.
-
-8. Avaliações e Comentários
-Incentivamos os clientes a deixarem avaliações e opiniões sobre os produtos adquiridos, ajudando outros compradores a fazerem escolhas informadas.
-
-9. Descontos e Promoções
-
-Processadores: 10% off com o cupom CPU10, válido até 30/11/2025.
-Periféricos (Teclados, Mouses e Headsets): 15% off com o cupom PERIF15, válido até 15/12/2025.
-Placas de Vídeo: 8% off com o cupom GPU8, válido até 31/12/2025.
-Monitores e Fontes: 10% off com o cupom POWER10, válido até 20/11/2025.
 
 
 --- Produtos Disponíveis ---
 
 1. Processadores
 
-Intel Core i5-13600K – R$ 2.199,00
-AMD Ryzen 7 7800X3D – R$ 2.599,00
-Intel Core i9-14900K – R$ 4.299,00
-AMD Ryzen 5 5600G – R$ 1.199,00
-Cooler Master Hyper 212 Black Edition – R$ 299,00
+AMD Athlon 3000G – R$ 260,00 – AM4 (com vídeo)
+AMD Ryzen 3 4100 – R$ 350,00 – AM4 (sem vídeo)
+AMD Ryzen 3 3200G – R$ 370,00 – AM4 (com vídeo)
+AMD Ryzen 5 4500 – R$ 400,00 – AM4 (sem vídeo)
+AMD Ryzen 5 5600 – R$ 530,85 – AM4 (sem vídeo)
+AMD Ryzen 5 5600G – R$ 622,51 – AM4 (com vídeo)
+AMD Ryzen 7 5700X – R$ 1.103,49 – AM4 (sem vídeo)
+AMD Ryzen 7 7800X3D – R$ 2.399,00 – AM5 (sem vídeo)
+AMD Ryzen 9 5900X – R$ 2.103,50 – AM4 (sem vídeo)
+AMD Ryzen 9 7950X – R$ 5.499,90 – AM5 (sem vídeo)
+AMD Ryzen 5 7600 – R$ 1.609,54 – AM5 (com vídeo)
+AMD Ryzen 7 7700X – R$ 2.637,82 – AM5 (sem vídeo)
+Intel Core i3-530 – R$ ~350,00 – LGA 1156 (com vídeo)
+Intel Core i3-14100F – R$ 515,90 – LGA 1700 (sem vídeo)
+Intel Core i5-12400F – R$ 649,99 – LGA 1700 (sem vídeo)
+Intel Core i5-14400F – R$ 1.222,05 – LGA 1700 (sem vídeo)
+Intel Core Ultra 5 245K – R$ 1.529,99 – LGA 1851 (com vídeo)
+Intel Core i7-14700K – R$ 2.389,99 – LGA 1700 (com vídeo)
+Intel Core i9-13900 – R$ 3.699,99 – LGA 1700 (com vídeo)
+Intel Core Ultra 9 285K – R$ 3.799,99 – LGA 1851 (com vídeo)
+Intel Core i7-12700F – R$ 1.519,90 – LGA 1700 (sem vídeo)
+Intel Core i5-14600KF – R$ 1.369,90 – LGA 1700 (sem vídeo)
 
 2. Placas de Vídeo
 
-NVIDIA GeForce RTX 4070 Ti 12GB – R$ 6.499,00
-AMD Radeon RX 7800 XT 16GB – R$ 5.899,00
-NVIDIA GeForce RTX 4060 8GB – R$ 3.499,00
-ASUS Dual RTX 4070 12GB – R$ 6.299,00
-Zotac RTX 3060 Twin Edge 12GB – R$ 2.999,00
+AMD Radeon RX 580 8 GB – R$ 910,00
+AMD Radeon RX 6600 8 GB – R$ 1.350,00
+AMD Radeon RX 7600 8 GB – R$ 1.689,90
+AMD Radeon RX 7600 (versão Speedster) – R$ 2.071,00
+AMD Radeon RX 9060 XT – R$ 2.249,90
+AMD Radeon RX 7900 XT – R$ 4.399,99
+AMD Radeon RX 7900 XT Gaming 20 GB – R$ 4.328,71
+AMD Radeon RX 7900 XTX – R$ 5.799,90
+AMD Radeon RX 7900 XTX Phantom Gaming OC – R$ 7.241,90
+AMD Radeon RX 550 4GB – R$ 550,00
+NVIDIA GeForce GT 1030 2GB – R$ 429,00
+NVIDIA GeForce GTX 1050 Ti 4GB – R$ 799,00
+NVIDIA GeForce GTX 1650 4GB – R$ 1.099,00
+NVIDIA GeForce GTX 1660 Super 6GB – R$ 1.499,00
+NVIDIA GeForce RTX 3050 8GB – R$ 1.499,00
+NVIDIA GeForce RTX 3060 12GB – R$ 1.799,00
+NVIDIA GeForce RTX 4060 8GB – R$ 1.999,00
+NVIDIA GeForce RTX 4060 Ti 8GB – R$ 2.899,00
+NVIDIA GeForce RTX 4070 Super 12GB – R$ 4.099,00
+NVIDIA GeForce RTX 4080 Super 16GB – R$ 6.199,00
+NVIDIA GeForce RTX 4090 24GB – R$ 11.999,00
+NVIDIA GeForce RTX 5080 16GB – R$ 7.999,00
+NVIDIA GeForce RTX 5090 24GB – R$ 14.999,00
+NVIDIA GeForce RTX 5060 8GB – R$ 2.499,00
+NVIDIA GeForce RTX 5070 12GB – R$ 4.799,00
 
 3. Periféricos (Teclados, Mouses, Headsets)
 
-Teclado Mecânico Redragon Kumara K552 – R$ 349,00
-Mouse Gamer Logitech G502 HERO – R$ 399,00
-Headset HyperX Cloud II – R$ 699,00
-Mousepad RGB Corsair MM700 – R$ 259,00
-Combo Gamer Razer Cynosa + Viper Mini – R$ 799,00
+Teclados:
+Multilaser KB100 – R$ 29,90
+Fortrek K3 – R$ 39,90
+Redragon Karura K502 – R$ 119,90
+HP K300 – R$ 129,90
+Redragon Kumara K552 (ABNT2) – R$ 159,90
+Mtek MKF61 – R$ 199,90
+Redragon Lakshmi K606 – R$ 249,90
+HyperX Alloy Core RGB – R$ 299,90
+Logitech G413 – R$ 379,90
+Logitech G915 TKL – R$ 1.099,00
+
+Mouses:
+Multilaser MO251 – R$ 19,90
+Fortrek M3 – R$ 24,90
+Redragon Centrophorus M601 – R$ 69,90
+Logitech M90 – R$ 39,90
+Redragon Cobra M711 – R$ 119,90
+Logitech G203 – R$ 129,90
+Razer DeathAdder Essential – R$ 159,90
+Logitech G502 Hero – R$ 249,90
+Razer Basilisk V3 – R$ 399,90
+Logitech G Pro X Superlight – R$ 899,00
+
+Headsets:
+Multilaser PH073 – R$ 39,90
+Fortrek H2 – R$ 49,90
+Redragon ARES H120 – R$ 79,90
+Pichau P651 – R$ 89,90
+Redragon H220 Themis – R$ 119,90
+HyperX Cloud Stinger – R$ 219,90
+Corsair HS50 Pro – R$ 269,90
+HyperX Cloud Alpha – R$ 399,90
+Logitech G Pro X – R$ 699,90
+SteelSeries Arctis Nova Pro – R$ 1.899,00
+
 
 4. Fontes e Gabinetes
 
-Fonte Corsair CV550 550W 80 Plus Bronze – R$ 369,00
-Fonte EVGA 600W White – R$ 329,00
-Gabinete Cooler Master TD500 Mesh – R$ 699,00
-Gabinete NZXT H510 – R$ 749,00
-Kit Ventoinha RGB 3x120mm – R$ 249,00
+Fontes:
+Redragon RGPS 500W 80 Plus White – R$ 179,90
+Aigo VK550 550W 80 Plus Bronze – R$ 199,90
+Gamdias Kratos E1-600W 80 Plus Bronze – R$ 229,90
+Corsair CV550 80 Plus Bronze – R$ 289,90
+Corsair CX650 80 Plus Bronze – R$ 399,90
+XPG Core Reactor 750W 80 Plus Gold – R$ 649,90
+Corsair RM850x 80 Plus Gold – R$ 899,00
+
+Gabinetes:
+Rise Mode Glass 06 – R$ 129,90
+Bluecase BG-015 – R$ 139,90
+PCYes Tiger Preta – R$ 159,90
+Redragon Grapple – R$ 199,90
+Pichau HX300 – R$ 219,90
+Gamemax H605 – R$ 249,90
+Gamemax G561 FRGB – R$ 299,90
+Cooler Master MasterBox Q300L – R$ 379,90
+NZXT H510 – R$ 599,90
+Corsair 4000D Airflow – R$ 799,90
 
 5. Monitores
 
-Monitor Gamer AOC 24G2 24” 144Hz – R$ 999,00
-Monitor LG UltraGear 27” 165Hz – R$ 1.499,00
-Samsung Odyssey G5 32” Curvo 165Hz – R$ 2.299,00
-Philips 27” Full HD IPS – R$ 1.099,00
-Dell P2422H 24” – R$ 899,00
+AOC 19,5" HD 60Hz – R$ 389,00
+Samsung 22" T350 Full HD 75Hz – R$ 499,00
+AOC 24" B1 Full HD 75Hz – R$ 599,00
+LG 24" 24MK430 Full HD IPS 75Hz – R$ 699,00
+Samsung 24" F24T350 Full HD IPS 75Hz – R$ 759,00
+AOC Hero 24G2 24" Full HD 144Hz – R$ 1.099,00
+LG UltraGear 24GN600 24" Full HD 144Hz – R$ 1.199,00
+Samsung Odyssey G30 24" 144Hz – R$ 1.299,00
+AOC 27G2 27" Full HD 144Hz – R$ 1.499,00
+Samsung Odyssey G5 34" Ultrawide 165Hz – R$ 2.599,00
 
 6. Armazenamento e Memória
 
-SSD Kingston NV2 1TB NVMe – R$ 429,00
-HD Seagate Barracuda 2TB – R$ 399,00
-SSD WD Blue 500GB SATA – R$ 329,00
-Memória DDR5 Corsair Vengeance 16GB 6000MHz – R$ 749,00
-Memória DDR4 HyperX Fury 8GB 3200MHz – R$ 299,00
+SSDs:
+Kingston A400 240GB SATA – R$ 109,00
+Crucial BX500 240GB SATA – R$ 119,00
+Kingston NV2 250GB NVMe – R$ 139,00
+WD Green SN350 240GB NVMe – R$ 149,00
+Kingston NV2 500GB NVMe – R$ 209,00
+Crucial P3 500GB NVMe – R$ 239,00
+WD Blue SN570 1TB NVMe – R$ 329,00
+Kingston KC3000 1TB NVMe – R$ 499,00
+Samsung 980 Pro 1TB NVMe – R$ 649,00
+Samsung 990 Pro 2TB NVMe – R$ 1.299,00
 
-7. Acessórios e Tecnologia
+Memórias RAM:
+Kingston Fury Beast 8GB 2666MHz – R$ 99,00 – DDR4
+Crucial 8GB 2666MHz – R$ 109,00 – DDR4
+XPG Gammix D30 8GB 3200MHz – R$ 129,00 – DDR4
+Kingston Fury Beast 8GB 3200MHz – R$ 139,00 – DDR4
+XPG Spectrix D41 16GB 3200MHz – R$ 229,00 – DDR4
+Corsair Vengeance LPX 16GB 3200MHz – R$ 249,00 – DDR4
+Kingston Fury Beast 16GB 3600MHz – R$ 299,00 – DDR4
+Corsair Vengeance RGB Pro 16GB 3200MHz – R$ 399,00 – DDR4
+XPG Lancer RGB 32GB 6000MHz DDR5 – R$ 799,00 – DDR5
+Corsair Dominator Platinum RGB 32GB 6000MHz DDR5 – R$ 1.199,00 – DDR5
 
-Suporte para Notebook Ajustável – R$ 189,00
-Cabo HDMI 2.1 Ultra HD 2m – R$ 79,00
-Hub USB 3.0 4 Portas – R$ 99,00
-Base Cooler para Notebook Redragon – R$ 249,00
-Luminária de Mesa RGB Smart Gtech – R$ 199,00
+7. Placa Mãe
+
+ASUS TUF Gaming A520M‑PLUS WiFi – Marca: ASUS, Chipset: A520 (AMD AM4) – R$ 729,99
+Mancer B450M DA V2 – Marca: Mancer, Chipset: B450 (AMD AM4) – R$ 399,99
+ASRock B450M Steel Legend – Marca: ASRock, Chipset: B450 (AMD AM4) – R$ 759,99
+ASUS PRIME B660M‑K D4 – Marca: ASUS, Chipset: B660 (Intel LGA1700) – R$ 484,99
+ASRock B660M Phantom Gaming 4 – Marca: ASRock, Chipset: B660 (Intel LGA1700) – R$ 866,00
+Gigabyte Z690 UD – Marca: Gigabyte, Chipset: Z690 (Intel LGA1700) – R$ 1.700,00
+Biostar Z690A‑SILVER – Marca: Biostar, Chipset: Z690 (Intel LGA1700) – R$ 1.582,40
+ASUS ROG Strix Z690‑I Gaming WiFi 6E – Marca: ASUS, Chipset: Z690 (Intel LGA1700) – R$ 500,00 
+ASUS Prime Z690‑P WiFi – Marca: ASUS, Chipset: Z690 (Intel LGA1700) – R$ 2.366,19
+ASUS TUF Gaming A620M‑PLUS – Marca: ASUS, Chipset: A620 (AMD AM5) – R$ 849,00
+Biostar B650M‑T – Marca: Biostar, Chipset: B650 (AMD AM5) – R$ 1.050,00
+ASUS ROG Strix B650‑A Gaming WiFi – Marca: ASUS, Chipset: B650 (AMD AM5) – R$ 1.699,00
+Gigabyte X870E AORUS PRO ICE – Marca: Gigabyte, Chipset: X870E (AMD AM5) – R$ 3.160,00
+Gigabyte B760M Aorus Elite – Marca: Gigabyte, Chipset: B760 (Intel LGA 1700) – R$ 1.080,00
+ASUS TUF Gaming B760M‑E D4 – Marca: ASUS, Chipset: B760 (Intel LGA 1700) – R$ 1.250,00
+ASRock H610M‑HVS/M.2 – Marca: ASRock, Chipset: H610 (Intel LGA 1700) – R$ 499,00
+ASUS Prime Z790-P WiFi – Marca: ASUS, Chipset: Z790 (Intel LGA 1700) – R$ 1.790,00
+MSI PRO Z690-A DDR4 – Marca: MSI, Chipset: Z690 (Intel LGA 1700) – R$ 1.199,00
+Gigabyte X870E AORUS XTREME – Marca: Gigabyte, Chipset: X870E (AMD AM5) – R$ 6.500,00
+Gigabyte B650M DS3H – Marca: Gigabyte, Chipset: B650 (AMD AM5) – R$ 1.329,00
+ASRock A620M‑HDV – Marca: ASRock, Chipset: A620 (AMD AM5) – R$ 1.081,45
+ASUS PRIME B760M‑K D4 – Marca: ASUS, Chipset: B760 (Intel LGA 1700) – R$ 552,49
+ASUS PRIME H610M‑A D4 – Marca: ASUS, Chipset: H610 (Intel LGA 1700) – R$ 668,99
+
+8. Acessórios e Tecnologia
+
+Cabo HDMI – R$ 35,00
+Cabo DisplayPort – R$ 45,00
+Cabo VGA – R$ 30,00
+Cabo USB-C para USB – R$ 60,00
+Cabo USB-C para HDMI – R$ 80,00
+Adaptador USB Wi-Fi – R$ 120,00
+Adaptador Bluetooth USB – R$ 90,00
+Suporte para notebook (ajuste de altura) – R$ 100,00 
+Base refrigerada para notebook – R$ 120,00 
+Mousepad (padrão) – R$ 50,00
+Mousepad gamer grande – R$ 90,00
+Hub USB 3.0 – R$ 110,00
+Webcam HD/Full HD – R$ 250,00
+Ring light para home office – R$ 180,00
+Microfone de mesa – R$ 300,00
+Caixinhas de som USB – R$ 200,00
+Suporte para monitor – R$ 220,00
 
 Resumo da Gtech
-A Gtech se propõe a ser a loja referência em tecnologia e equipamentos de informática, oferecendo produtos confiáveis, preços competitivos e suporte especializado.
-Combinando inovação, atendimento personalizado e segurança, buscamos proporcionar a melhor experiência para quem ama tecnologia — seja para trabalhar, estudar ou jogar.
+A Gtech se propõe a ser uma loja que presa pela opnião do cliente e apresenta as melhores opções, sem deixar o cliente se frustar com compras erradas.

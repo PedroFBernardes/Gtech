@@ -1,6 +1,4 @@
-/* =========================
-   Variáveis (fáceis de entender)
-   ========================= */
+
 :root{
   --cor-primaria: #1f7a1f;      /* verde das categorias */
   --cor-primaria-escura: #145214;
@@ -37,9 +35,7 @@ body{
   padding-inline: 14px;
 }
 
-/* =========================
-   Cabeçalho
-   ========================= */
+/*Cabeçalho*/
 .cabecalho{
   background: var(--cor-topo);
   color: #fff;
@@ -52,7 +48,7 @@ body{
 
 .cabecalho__conteudo{
   display: grid;
-  grid-template-columns: auto auto 1fr auto;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 12px;
 }
@@ -98,6 +94,7 @@ body{
 }
 .busca__entrada{
   flex: 1;
+  width: 700px;
   height: 36px;
   border-radius: 999px;
   border: 1px solid #3b3b3b;
@@ -133,9 +130,7 @@ body{
 .atalhos__texto{ display: none; }
 @media (min-width: 900px){ .atalhos__texto{ display: inline; } }
 
-/* =========================
-   Categorias
-   ========================= */
+/*Categorias*/
 .categorias{
   background: var(--cor-primaria);
   border-top: 2px solid #0c550c;
@@ -163,26 +158,24 @@ body{
   background: #e6ffe6;
 }
 
-/* =========================
-   Faixa de destaque (banner "Carrossel")
-   ========================= */
+/*Faixa de destaque (banner "Carrossel")*/
 .faixa-destaque{
   background: var(--gradiente-cinza);
   margin: 14px auto;
   border-radius: var(--raio-grande);
   box-shadow: 0 18px 40px rgba(0,0,0,.25) inset, 0 14px 30px var(--cor-sombra);
+  overflow: hidden;                       
 }
 .faixa-destaque__conteudo{
   position: relative;
-  min-height: 120px;
-  display: grid;
-  place-items: center;
+  height: clamp(180px, 26vw, 360px);     
 }
-.faixa-destaque__titulo{
-  margin: 22px 0;
-  font-size: 22px;
-  font-weight: 800;
-  color: #2b2b2b;
+.faixa-destaque__imagem{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;                    
 }
 .faixa-destaque__marca-dagua{
   position: absolute;
@@ -192,9 +185,7 @@ body{
   opacity: .12;
 }
 
-/* =========================
-   Produtos - carrossel horizontal
-   ========================= */
+/*Produtos - carrossel horizontal*/
 .secao-produtos{ padding-block: 10px 40px; }
 
 .carrossel{
@@ -210,7 +201,7 @@ body{
 }
 .carrossel::-webkit-scrollbar{ height: 10px; }
 .carrossel::-webkit-scrollbar-thumb{
-  background: #b8c2cc; border-radius: 999px;
+  background: #646464; border-radius: 999px;
 }
 .carrossel::-webkit-scrollbar-track{ background: transparent; }
 
@@ -237,7 +228,7 @@ body{
   border-radius: 10px;
   display: grid;
   place-items: center;
-  height: 160px;
+  height: 260px;
   overflow: hidden;
 }
 .produto__imagem img{
@@ -258,9 +249,7 @@ body{
   color: #0a3e0a;
 }
 
-/* =========================
-   Rodapé
-   ========================= */
+/*Rodapé */
 .rodape {
   position: fixed;
   bottom: 0;
@@ -276,39 +265,33 @@ body{
 }
 .rodape__texto{ margin: 0; font-size: 14px; }
 
-/* =========================
-   Responsividade
-   ========================= */
+/*Responsividade*/
 @media (min-width: 1024px){
   .faixa-destaque__titulo{ font-size: 26px; }
   .produto__preco{ font-size: 20px; }
 }
 
-/* =========================
-   Chat flutuante
-   ========================= */
+/*Chat flutuante*/
 
 /* Botão flutuante */
-.botao-chat-flutuante{
+.botao-chat-flutuante {
   position: fixed;
-  right: 22px;
-  bottom: 22px;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  border: 0;
-  background: radial-gradient(circle at 30% 30%, #17c36b, #0aa36b 60%, #068a58 100%);
-  box-shadow: 0 10px 24px rgba(0,0,0,.25), 0 2px 0 rgba(0,0,0,.12) inset;
-  cursor: pointer;
+  right: -50px;
+  bottom: -20px;
+  border: none;
+  background: transparent;  /* sem cor de fundo */
   padding: 0;
+  cursor: pointer;
   z-index: 50;
 }
-.botao-chat-flutuante img{
-  width: 60%;
-  height: 60%;
+
+.botao-chat-flutuante img {
+  width: 300px;              /* tamanho total do botão/imagem */
+  height: 300px;
   object-fit: contain;
-  filter: drop-shadow(0 1px 0 rgba(0,0,0,.2));
+  transition: transform 0.2s ease;
 }
+
 .botao-chat-flutuante:hover{ transform: translateY(-2px); }
 
 /* Janela do chat */

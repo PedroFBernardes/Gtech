@@ -5,15 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>GTECH - Loja de Tecnologia</title>
   <link rel="stylesheet" href="../static/css/estilos.css" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
 </head>
 <body>
   <!-- TOPO -->
   <header class="cabecalho">
     <div class="conteudo-maximo cabecalho__conteudo">
-      <button class="botao-menu" aria-label="Abrir menu">&#9776;</button>
+      
 
       <a class="logo" href="#" aria-label="Página inicial GTECH">
-        <span class="logo__marca">G</span><span class="logo__texto">TECH</span>
+        <img src="../static/img/logo.svg" alt="">
       </a>
 
       <form class="busca" role="search">
@@ -49,8 +50,13 @@
     <!-- BANNER -->
     <section class="faixa-destaque">
       <div class="conteudo-maximo faixa-destaque__conteudo">
-        <h2 class="faixa-destaque__titulo">Carrossel</h2>
-        <div class="faixa-destaque__marca-dagua" aria-hidden="true">🛒</div>
+        <img
+          class="faixa-destaque__imagem"
+          src="{{ url_for('static', filename='img/Banner.svg') }}"
+          alt="Esquenta Black Friday - GTECH"
+          loading="eager"
+          decoding="async"
+        >
       </div>
     </section>
 
@@ -61,7 +67,7 @@
           <li class="produto">
             <a href="#" class="produto__cartao">
               <figure class="produto__imagem">
-                <img src="https://picsum.photos/seed/cpu/240/180" alt="Processador AMD Ryzen 7 (imagem ilustrativa)" />
+                <img src="{{ url_for('static', filename='img/AMD ryzen 7.jpg') }}" alt="Processador AMD Ryzen 7 (imagem ilustrativa)" />
               </figure>
               <figcaption class="produto__descricao">Processador AMD Ryzen 7</figcaption>
               <strong class="produto__preco">R$ 2.899,99</strong>
@@ -71,7 +77,7 @@
           <li class="produto">
             <a href="#" class="produto__cartao">
               <figure class="produto__imagem">
-                <img src="https://picsum.photos/seed/placamae/240/180" alt="Placa-mãe Asus TUF (imagem ilustrativa)" />
+                <img src="{{ url_for('static', filename='img/placa_mae.jpg') }}" alt="Placa-mãe Asus TUF (imagem ilustrativa)" />
               </figure>
               <figcaption class="produto__descricao">Placa-mãe Asus TUF</figcaption>
               <strong class="produto__preco">R$ 569,99</strong>
@@ -81,7 +87,7 @@
           <li class="produto">
             <a href="#" class="produto__cartao">
               <figure class="produto__imagem">
-                <img src="https://picsum.photos/seed/gpu/240/180" alt="Placa de vídeo (imagem ilustrativa)" />
+                <img src="{{ url_for('static', filename='img/placa_de_video.jpg') }}" alt="Placa de vídeo (imagem ilustrativa)" />
               </figure>
               <figcaption class="produto__descricao">Placa de vídeo</figcaption>
               <strong class="produto__preco">R$ 1.559,99</strong>
@@ -91,7 +97,7 @@
           <li class="produto">
             <a href="#" class="produto__cartao">
               <figure class="produto__imagem">
-                <img src="https://picsum.photos/seed/fonte/240/180" alt="Fonte MSI 650W (imagem ilustrativa)" />
+                <img src="{{ url_for('static', filename='img/fonte.jpg') }}" alt="Fonte MSI 650W (imagem ilustrativa)" />
               </figure>
               <figcaption class="produto__descricao">Fonte MSI 650W</figcaption>
               <strong class="produto__preco">R$ 309,99</strong>
@@ -102,18 +108,15 @@
     </section>
   </main>
 
-    <!-- =========================
-       BOTÃO FLUTUANTE + JANELA DO CHAT
-       ========================= -->
+    <!--BOTÃO FLUTUANTE + JANELA DO CHAT -->
+
   <!-- BOTÃO FLUTUANTE -->
   <button
     id="botaoChat"
     class="botao-chat-flutuante"
     aria-label="Abrir chat de atendimento"
   >
-    <!-- Troque o src abaixo quando tiver seu arquivo:
-         ex.: ./img/meu-icone-chat.svg -->
-    <img src="./img/icone-chat.png" alt="" />
+    <img src="{{ url_for('static', filename='img/icone-chatbot.svg') }}" alt="Abrir chat"/>
   </button>
 
   <!-- JANELA DO CHAT -->
@@ -158,69 +161,7 @@
       <p class="rodape__texto">© GTECH — Todos os direitos reservados.</p>
     </div>
   </footer>
-
-  <!-- Script simples para abrir/fechar e simular envio -->
-  <script>
-    (function(){
-      const botaoChat = document.getElementById('botaoChat');
-      const janelaChat = document.getElementById('janelaChat');
-      const fecharChat = document.getElementById('fecharChat');
-      const formChat = document.getElementById('formChat');
-      const entradaMensagem = document.getElementById('entradaMensagem');
-      const listaMensagens = document.getElementById('listaMensagens');
-
-      function abrirChat(){
-        janelaChat.classList.add('aberta');
-        janelaChat.setAttribute('aria-hidden','false');
-        setTimeout(()=>entradaMensagem.focus(), 50);
-      }
-      function fecharJanela(){
-        janelaChat.classList.remove('aberta');
-        janelaChat.setAttribute('aria-hidden','true');
-      }
-
-      botaoChat.addEventListener('click', abrirChat);
-      fecharChat.addEventListener('click', fecharJanela);
-
-      // Fecha com ESC
-      window.addEventListener('keydown', (e)=>{
-        if(e.key === 'Escape' && janelaChat.classList.contains('aberta')) fecharJanela();
-      });
-
-      // Simula envio de mensagem (somente front-end)
-      formChat.addEventListener('submit', (e)=>{
-        e.preventDefault();
-        const texto = entradaMensagem.value.trim();
-        if(!texto) return;
-
-        // Mensagem do usuário
-        listaMensagens.insertAdjacentHTML('beforeend',
-          `<div class="mensagem mensagem--usuario">
-             <span class="mensagem__autor">Você</span>
-             <p class="mensagem__texto"></p>
-             <time class="mensagem__tempo">${new Date().toLocaleTimeString().slice(0,5)}</time>
-           </div>`
-        );
-        // coloca o texto de forma segura
-        listaMensagens.querySelectorAll('.mensagem--usuario .mensagem__texto:last-child');
-        listaMensagens.lastElementChild.querySelector('.mensagem__texto').textContent = texto;
-
-        // Resposta mock do bot
-        setTimeout(()=>{
-          listaMensagens.insertAdjacentHTML('beforeend',
-            `<div class="mensagem mensagem--bot">
-               <span class="mensagem__autor">GTECH</span>
-               <p class="mensagem__texto">Beleza! Já anotei: "${texto}". Quer comparar processadores Ryzen e Intel?</p>
-               <time class="mensagem__tempo">${new Date().toLocaleTimeString().slice(0,5)}</time>
-             </div>`
-          );
-          listaMensagens.scrollTop = listaMensagens.scrollHeight;
-        }, 400);
-
-        entradaMensagem.value = '';
-        listaMensagens.scrollTop = listaMensagens.scrollHeight;
-      });
-    })();
-  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="{{ url_for('static', filename='js/index.js') }}"></script>
 </body>
 </html>
