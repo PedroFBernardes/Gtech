@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, Response
 import google.generativeai as genai
 import os
 from dotenv import load_dotenv
-from funcoes import *
+from .funcoes import carregar, salvar, selecionador_de_personalidade, remover_msg_antiga, resumir_historico, personas
 from time import sleep
 import uuid
 
