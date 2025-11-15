@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "Backend/principal.py",
-      "use": "vercel/python"
+      "use": "@vercel/python"
     }
   ],
   "routes": [
