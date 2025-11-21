@@ -36,29 +36,37 @@
   <!-- CATEGORIAS -->
   <nav class="categorias">
     <div class="conteudo-maximo categorias__lista">
-      <a href="#" class="categoria__link">Processadores</a>
-      <a href="#" class="categoria__link">Placas-mãe</a>
-      <a href="#" class="categoria__link">Memórias</a>
-      <a href="#" class="categoria__link">Placas de vídeo</a>
-      <a href="#" class="categoria__link">Armazenamento</a>
-      <a href="#" class="categoria__link">Fontes</a>
-      <a href="#" class="categoria__link">Monitores</a>
+      <a href="#" class="categoria__link">PROCESSADORES</a>
+      <a href="#" class="categoria__link">PLACA-MÃE</a>
+      <a href="#" class="categoria__link">MEMÓRIAS</a>
+      <a href="#" class="categoria__link">PLACA DE VÍDEO</a>
+      <a href="#" class="categoria__link">ARMAZENAMENTO</a>
+      <a href="#" class="categoria__link">FONTES</a>
+      <a href="#" class="categoria__link">MONITORES</a>
     </div>
   </nav>
 
   <main>
+    
     <!-- BANNER -->
-    <section class="faixa-destaque">
-      <div class="conteudo-maximo faixa-destaque__conteudo">
-        <img
-          class="faixa-destaque__imagem"
-          src="{{ url_for('static', filename='img/Banner.svg') }}"
-          alt="Esquenta Black Friday - GTECH"
-          loading="eager"
-          decoding="async"
-        >
-      </div>
-    </section>
+<section class="carrossel-banner">
+      <div class="banner-container">
+        <div class="slide fade">
+          <img src="{{ url_for('static', filename='img/banner1.jpg') }}" alt="">
+    </div>
+
+    <div class="slide fade">
+      <img src="{{ url_for('static', filename='img/banner2.jpg') }}" alt="">
+    </div>
+
+    <div class="slide fade">
+      <img src="{{ url_for('static', filename='img/banner3.jpg') }}" alt="">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</section>
 
     <!-- PRODUTOS -->
     <section class="secao-produtos">
@@ -163,5 +171,28 @@
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+  showSlides(slideIndex += n);
+  }
+
+  function showSlides(n) {
+    let slides = document.getElementsByClassName("slide");
+
+    if (n > slides.length) { slideIndex = 1 }
+    if (n < 1) { slideIndex = slides.length }
+
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+  }
+
+  setInterval(() => { plusSlides(1); }, 4000);
+  </script>
 </body>
 </html>

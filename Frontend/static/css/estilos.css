@@ -95,6 +95,8 @@ body{
 .busca__entrada{
   flex: 1;
   width: 700px;
+  width: 100%;
+  max-width: 700px;
   height: 36px;
   border-radius: 999px;
   border: 1px solid #3b3b3b;
@@ -102,6 +104,16 @@ body{
   outline: none;
   background: #f2f6f4;
 }
+
+@media (max-width: 600px){
+  .cabecalho__conteudo{
+    grid-template-columns: 1fr;
+  }
+  .busca{
+    width: 100%;
+  }
+}
+
 .busca__entrada:focus{ border-color: #0aa36b; }
 .busca__botao{
   height: 36px;
@@ -142,6 +154,8 @@ body{
   gap: 10px;
   padding-block: 8px;
   overflow-x: auto;
+  justify-content: center;
+  text-align: center;
 }
 .categoria__link{
   color: #102610;
@@ -153,6 +167,7 @@ body{
   text-decoration: none;
   white-space: nowrap;
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  text-align: center;
 }
 .categoria__link:hover{
   background: #e6ffe6;
@@ -286,10 +301,17 @@ body{
 }
 
 .botao-chat-flutuante img {
-  width: 300px;              /* tamanho total do botão/imagem */
-  height: 300px;
+  width: 270px;              /* tamanho total do botão/imagem */
+  height: 270px;
   object-fit: contain;
   transition: transform 0.2s ease;
+}
+
+@media(max-width: 500px){
+  .botao-chat-flutuante img {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 .botao-chat-flutuante:hover{ transform: translateY(-2px); }
@@ -411,3 +433,113 @@ body{
   cursor: pointer;
 }
 .botao-enviar:hover{ filter: brightness(1.05); }
+
+
+/* ===== RESPONSIVIDADE EXTRA ===== */
+
+/* Cabeçalho mais organizado em telas menores */
+@media (max-width: 768px) {
+  .cabecalho__conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .logo{
+    justify-content: center;
+  }
+
+  .busca{
+    width: 100%;
+  }
+
+  .atalhos{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px){
+  .faixa-destaque{
+    margin-inline: 8px;
+  }
+
+  .faixa-destaque__conteudo{
+    height: 180px; /* fica mais baixinho no celular */
+  }
+}
+
+@media (max-width: 600px){
+  .produto__imagem{
+    height: 200px;
+  }
+}
+
+@media (max-width: 640px){
+  body{
+    padding-bottom: 0;
+  }
+
+  .rodape{
+    position: static;
+  }
+}
+
+/* CARROSEL */
+
+.carrossel-banner {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.banner-container {
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.slide img {
+  width: 100%;
+  height: clamp(180px, 26vw, 360px);
+  object-fit: cover;
+}
+
+.fade {
+  animation: fadeEffect 1.2s ease-in-out;
+}
+
+@keyframes fadeEffect {
+  from { opacity: .4 }
+  to { opacity: 1 }
+}
+
+/* Botões */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 14px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.35);
+  border-radius: 50%;
+}
+
+.prev:hover, .next:hover {
+  background: rgba(0,0,0,0.55);
+}
+
+.prev { left: 15px; }
+.next { right: 15px; }
+
+@media (max-width: 600px) {
+  .prev, .next {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
